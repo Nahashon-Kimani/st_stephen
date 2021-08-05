@@ -1,0 +1,93 @@
+nav img
+{
+    height: 70px;
+    width: 70px;
+}
+nav a
+{
+    font-weight: 800;
+    font-size: 20px;
+}
+.slider img{
+    max-height:70vh!important;
+}
+.slider .carousel-caption{
+    background: rgb(13,110,253);
+    background: linear-gradient(16deg, rgba(13,110,253,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 50px;
+    font-weight: 400!important;
+}
+
+/* border */
+.border
+{
+    background: #0dcbfd;
+    background: linear-gradient(125deg, rgba(13,203,253,1) 0%, rgba(0,255,252,1) 100%);
+    height: 7px;
+    width: 70px;
+    margin: 10px 0px;
+}
+
+/* Marketing Section */
+.marketingSection{
+    text-align: center!important;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.marketingSection p{
+    max-width: 50%;
+    text-align: center;
+}
+.marketingSection i{
+    width: 100px;
+    height: 100px;
+    color: #0dcbfd;
+    border: 2px solid #0dcbfd ;
+    border-radius: 40%;
+    padding: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.marketingSection i:hover{
+    border-radius: 50%;
+    transition: .7s;
+    transform: scale(1.1);
+    background-color: #0dcbfd;
+    color: white;
+    box-shadow: 0px 0px 2px 2px #0dc9fd75;
+}
+.marketingSection .marketing-item:hover{
+    box-shadow: -4px -3px 18px 2px #0dc9fd75;
+    margin-bottom: 5px;
+    transition: .7s;
+    /* transform: rotate(56deg) scale(0.6) skew(3deg) translate(14px,-7px); */
+}
+
+/* excellence Section CSS */
+.excellence h4 span{
+    color: #0dcbfd;
+}
+
+/* Member Section CSS */
+.memberSection{
+    background: linear-gradient(#0dcbfd, #0dc9fd75),
+                url('../image/slider1.jpg');
+    color: white!important;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.memberSection h1{
+    font-size: 70px;
+    font-weight: 800;
+}
+.memberSection .border{
+    background: #ffffff;
+    height: 4px;
+    width: 90px;
+    margin: 10px 0px;
+    opacity: 0;
+}
+.memberSection .member:hover .border{
+    opacity: 1;
+    transition: .7s ease-in;
+}
