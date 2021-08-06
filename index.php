@@ -187,7 +187,7 @@
   <div class="container">
     <div class="row text-center">
       <!-- First Column starts -->
-      <div class="member col-sm-12 col-md-4">
+      <div class="member col-sm-12 col-md-6 col-lg-4">
         <h1>1200</h1>
         <center>
           <div class="border"></div>
@@ -197,7 +197,7 @@
       <!-- First Column ends -->
 
       <!-- Second Column starts -->
-      <div class="member col-sm-12 col-md-4">
+      <div class="member col-sm-12 col-md-6 col-lg-4">
         <h1>171</h1>
         <center>
           <div class="border"></div>
@@ -207,7 +207,7 @@
       <!-- Second Column ends -->
 
       <!-- Third Column starts -->
-      <div class="member col-sm-12 col-lg-4">
+      <div class="member col-sm-12 col-md-6 col-lg-4">
         <h1>35</h1>
         <center>
           <div class="border"></div>
@@ -219,6 +219,134 @@
   </div>
 </section>
 <!-- Member Section ends -->
+
+
+<!-- News Section starts  -->
+<section class="newsSection bg-light">
+  <h4 class="text-secondary fw-bold fs-2 text-center">
+    Latest <span>News</span>
+  </h4>
+  <center><div class="border"></div></center>
+
+  <div class="container">
+    <div class="row pt-sm-2 pt-md-3 pt-lg-5">
+      <!-- First Card starts -->
+      <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+        <div class="card">
+          <img src="image/slider1.jpg" alt="News 1" class="card-img-top img-thumbnail">
+          <p class="text-center pt-3">
+            17<sup>th</sup> July 2021, <span class="author">By Ian</span>
+          </p>
+          <div class="card-body">
+            <hr>
+            <!-- Title  -->
+              <h5 class="card-title">Riverside Camping</h5>
+            <!-- Paragraph -->
+              <p class="card-text text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- First card ends  -->
+
+      <!-- Second card starts -->
+      <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+        <div class="card">
+          <img src="image/slider1.jpg" alt="News 1" class="card-img-top img-thumbnail">
+          <p class="text-center pt-3">
+            17<sup>th</sup> July 2021, <span class="author">By Ian</span>
+          </p>
+          <div class="card-body">
+            <hr>
+            <!-- Title  -->
+              <h5 class="card-title">Riverside Camping</h5>
+            <!-- Paragraph -->
+              <p class="card-text text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- Second card ends -->
+
+      <!-- Third Card starts -->
+      <div class="col-sm-12 col-md-6 col-lg-4 py-2">
+        <div class="card">
+          <img src="image/slider1.jpg" alt="News 1" class="card-img-top img-thumbnail">
+          <p class="text-center pt-3">
+            17<sup>th</sup> July 2021, <span class="author">By Ian</span>
+          </p>
+          <div class="card-body">
+            <hr>
+            <!-- Title  -->
+              <h5 class="card-title">Riverside Camping</h5>
+            <!-- Paragraph -->
+              <p class="card-text text-secondary">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+              </p>
+          </div>
+        </div>
+      </div>
+      <!-- Third Card ends -->
+    </div>
+  </div>
+
+  <center>
+    <a href="#" class="btn btn-info px-5 text-center mt-sm-3 mt-md-5">
+      <i class="fas fa-eye"></i>
+      View More...
+    </a>
+  </center>
+
+</section>
+<!-- News Section ends -->
+
+<!-- Footer starts -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <!-- First column starts -->
+      <div class="col-ms-12 col-md-4">
+        <h5 class="text-uppercase fs-4 fw-normal">
+          Get In touch
+        </h5>
+        <!-- Monday to Friday -->
+        <p class="text-white">
+          <span class="fw-bolder">Monday - Friday:</span> 
+          08:00 - 5:00pm
+        </p>
+        
+        <!-- Saturday -->
+        <p>
+          Saturday: <span class="text-secondary">08:00 - 2:00pm</span>
+        </p>
+
+        <!-- Sunday -->
+        <p>
+          Sunday: <span class="text-secondary">Closed</span>
+        </p>
+
+        <!-- Social Media Icons -->
+        <div class="social py-5">
+          <i class="fab fa-facebook-square"></i>
+          <i class="fab fa-twitter-square"></i>
+          <i class="fab fa-youtube-square"></i>
+          <i class="fab fa-pinterest-square"></i>
+        </div>
+
+      </div>
+      <!-- First column ends -->
+
+      <!-- Second Column starts -->
+      <!-- Second Column ends -->
+
+      <!-- Third column starts -->
+      <!-- Third column ends -->
+    </div>
+  </div>
+</footer>
+<!-- Footer ends  -->
 
 
 <!-- JQUERY -->

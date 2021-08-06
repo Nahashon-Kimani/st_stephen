@@ -1,3 +1,9 @@
+body{
+    -webkit-font-smoothing: antialiased!important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    -moz-osx-font-smoothing: grayscale;
+}
+
 nav img
 {
     height: 70px;
@@ -79,6 +85,24 @@ nav a
 .memberSection h1{
     font-size: 70px;
     font-weight: 800;
+    position: relative;
+    display: inline-block;
+}
+.memberSection h1:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom, right;
+    transition: transform 0.25s ease-out;
+}
+.memberSection:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
 }
 .memberSection .border{
     background: #ffffff;
@@ -90,4 +114,65 @@ nav a
 .memberSection .member:hover .border{
     opacity: 1;
     transition: .7s ease-in;
+}
+
+/* News Section CSS */
+.newsSection{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+.newsSection h4 span{
+    color: #0dc9fd75;
+}
+.author{
+    color: #0dc9fd;
+    font-weight: 400;
+}
+.newsSection hr{
+    /* background: linear-gradient(#0dc9fd, #0dc9fd75); */
+    border: 2px double #0dc9fd;
+}
+.newsSection .card:hover{
+    box-shadow: 4px 4px 15px -1px #0dc9fd75;
+    /* border-top: 10px solid #ff6550; */
+    border-bottom: 5px double #0dc9fd75;
+}
+.newsSection .card:hover img{
+    opacity: .6;
+}
+.newsSection a{
+    border-radius: 50px;
+}
+.newsSection a:hover{
+    box-shadow: 10px 10px 300px #0dfd0d75 inset;
+    color: white;
+    border: none;
+    transform: scale(1.005);
+    transition: .5s ease-out;
+}
+
+/* Footer CSS */
+.footer{
+    background: linear-gradient(#0dc9fd75, #0dc9fd75),
+                url('../image/slider3.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white!important;
+}
+.footer .social i{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    padding: 10px 10px;
+    margin: 0px 5px 0px 0px;
+}
+.footer .social i:hover{
+    color: #0dcbfd!important;
+    margin: 0px 0px 0px 2px;
+    border: 2px solid #0dcbfd;
 }
